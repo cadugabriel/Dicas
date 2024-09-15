@@ -1,0 +1,5 @@
+Atalhos:
+    ALT+u		    : Coloca em maiúscula o primeiro caractere de todas as palavras selecionadas
+    ​CTRL+ALT+u      : Coloca em maiúscula o primeiro caractere de todas as palavras selecionadas
+    CTRL+u 		    : Coloca em minúscula todos os caracteres selecionados
+    CTRL+SHIFT+u    : Coloca em maiúscula todos os caracteres selecionados	

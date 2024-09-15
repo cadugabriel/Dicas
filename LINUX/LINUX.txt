@@ -1,0 +1,11 @@
+Comandos:
+    # scp								: Copia arquivos de um servidor Linux para outro
+    # sudo lsof -i -P -n | grep LISTEN	: Lista processos em execução	
+    # sudo fuser -k <porta>/tcp			: Mata processo TCP
+
+
+Alterar senha do root do WSL:
+ * Abrir PowerShell como Administrador
+ * No PowerShell digite: ubuntu config --default-user root
+ * Inicie sua distribuição Linux
+ * Entre no Linux e digite: passwd root

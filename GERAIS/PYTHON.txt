@@ -1,0 +1,10 @@
+Comandos:
+    # python.exe -m pip install --upgrade pip       : ATUALIZAR VERSÃO DO PYTHON
+    # pip install -r requirements.txt               : INSTALAR REQUIREMENTS
+    # python -m venv <NOME> ou virtualenv <NOME>    : CRIA AMBIENTE VIRTUAL
+    # .\nome_da_virtualenv\Scripts\activate.bat     : ATIVAR AMBIENTE VIRTUAL PELO WINDOWS
+    # source nome_da_virtualenv/bin/activate        : ATIVAR AMBIENTE VIRTUAL PELO LINUX
+    # .\nome_da_virtualenv\Scripts\deactivate.bat   : DESATIVAR AMBIENTE VIRTUAL PELO WINDOWS
+    # deactivate                                    : DESATIVAR AMBIENTE VIRTUAL PELO LINUX
+    # python3 -m pip freeze	                        : GERAR LISTA DE PACOTES (BIBLIOTECAS) SENDO UTILIZADAS NO MOMENTO
+    # sudo apt remove python3-<package>             : FORÇAR REMOVER PACOTES

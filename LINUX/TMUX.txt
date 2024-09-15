@@ -1,0 +1,23 @@
+Atalhos:
+    CTRL + b depois c                   : Nova Janela
+    CTRL + b depois p                   : Vai para janela anterior
+    CTRL + b depois n                   : Vai para próxima janela
+    CTRL + b depois número              : Vai direto para a janela escolhida
+    CTRL + b depois l                   : Vai para a última janela que estava
+    CTRL + b depois ,                   : Renomeia a janela
+    CTRL + b depois w                   : Lista todas as janelas
+    CTRL + b depois d                   : Detacha as janelas (sai do TMUX mas deixa as janelas ativas)
+    CTRL + b depois %                   : Divide a tela em 2 vertical
+    CTRL + b depois "                   : Divide a tela horizontalmente
+    CTRL + b depois esquerda            : Vai para a janela da esquerda
+    CTRL + b depois direita             : Vai para a janela da direita
+    CTRL + b depois cima                : Vai para a janela de cima
+    CTRL + b depois baixo               : Vai para a janela de baixo
+    CTRL + b depois o                   : Alterna entre as janelas divididas
+    CTRL + b (segurando) e direcional   : Altera tamanho da janela
+    CTRL + b depois [                   : Ativa modo scrool, para sair pressionar "q"
+
+
+Fora do TMUX:
+    tmux ls                             : Lista todas as janelas ativas
+    tmux attach -t "nome da conexão"    : Volta para a conexão que estava

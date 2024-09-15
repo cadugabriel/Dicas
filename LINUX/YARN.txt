@@ -1,0 +1,4 @@
+Comandos:
+    yarn application -list			            : Lista filas
+    yarn top                                    : Lista processos
+    yarn application -kill <<id do processo>>   : Mata processo

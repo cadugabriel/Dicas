@@ -1,0 +1,35 @@
+Comandos:
+    # crontab -e				: Abre arquivo para inserir novo agendamento
+    # crontab -u <user> -e		: Abre agendamento de um usuário
+    # crontab -l				: Lista agendamentos
+    # crontab -u <user> -l		: Lista agendamentos do usuário
+	
+Dicas:
+	--> As tabelas do cron de um usuário ficam armazenadas no diretório /var/spool/cron/crontabs/
+	--> Os agendamentos globais ficam armazenados no arquivo /etc/crontab
+	--> É importante que sempre a última linha fique em branco, ao incluir um novo agendamento quebre a linha no final. Isso evita um bug antigo da ferramenta.
+
+
+Extrutura:
+	C1 	: Minutos	= valores de 0 a 59 ou *
+	C2 	: Hora		= valores de 0 a 23 ou *
+	C3	: Dia		= valores de 1 a 31 ou *
+	C4	: Mês		= valores de 1 a 12, jan a dec ou *
+	C5	: Semana	= valoewa de 0 a 6, sun a sat ou * (0 e 7 representa domingo)
+	C6	: Comando	= Comando a ser executado ou script
+
+Para passar mais de um valor a um campo, separar os valores por vírgula.
+Para especificar um intervalo, utilizamos o hífen (-) separando o valor inicial e o final.
+Pode-se definir saltos, por exemplo 1–9/2, que é o equivalente à 1,3,5,7,9, pois é de 1 a 9 saltando de dois em dois.
+
+
+Acessos:
+	Para permitir que apenas alguns usuários possam editar o crontab, deve ser incluído o nome do usuário no arquivo /etc/cron.allow.
+	Para bloquear que apenas alguns usuários não possam editar o crontab deve ser incluído o nome do usuário no arquivo /etc/cron.deny.
+	Se não tiver nenhum dos dois arquivos, só o usuário root poderá manipular o crontab.
+	Se o usuário estiver listado em ambos os arquivos, o usuário poderá manipular o crontab.
+	
+
+Monitoramento
+	Para monitorar o cron, podemos verificar o /var/log/syslog e filtrar por cron. Vamos refinar este monitoramento redirecionando a saída para um arquivo onde ficará apenas os registros dos agendamentos.
+	# cat /var/log/syslog | grep CRON >> /tmp/cron.log

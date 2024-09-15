@@ -1,0 +1,16 @@
+Comandos:
+	# gunicorn --chdir app app:app -w 2 --threads 2 -b 0.0.0.0:8001 --log-level=debug
+
+	onde: 
+		--chdir	app			: diretório
+		app:app				: módulo e aplicação
+		-w 2				: número de works, entre 2 e 4
+		-- threads 2		: quantidade de threads executadas, entre 2 e 4
+		-b					: socket, pode ser um IP com a porta
+	-	-log-level=debug	: nível do log
+ 	
+
+Arquivo de configuração:
+1. Criar arquivo config_gunicorn.py
+
+2. Documentação completa em : https://gist.github.com/HacKanCuBa/275bfca09d614ee9370727f5f40dab9e

@@ -1,0 +1,25 @@
+Comandos:
+  # git clone "URL"                          		  : PARA BAIXAR
+  # git clone "URL" alias                    		  : PARA BAIXAR COM OUTRO NOME
+  # git branch                               		  : MOSTRA A BRANCH QUE ESTOU
+  # git branch -a [-v]                            : MOSTRA A BRANCH QUE ESTOU, MOSTRANDO TODAS QUE EXISTEM NO SERVIDOR. [-v]: mostra descrição do último pull request da branch
+  # git branch -d "nome_branch"              		  : REMOVE BRANCH LOCAIS
+  # git branch -D "nome_branch"              		  : EXCLUIR A BRANCH
+  # git checkout "nome_branch"               		  : MUDA PARA OUTRA BRANCH
+  # git checkout -t "endereço git remota"					: CRIA BRANCH LOCAL A PARTE DE UMA REMOTA
+  # git status                               		  : MOSTRA COMO ESTÁ A SINCRONIA DA MÁQUINA COM SERVIDOR
+  # git add *                                		  : ADICIONA AS ALTERAÇÕES LOCALMENTE               
+  # git commit -m "comentário"               		  : COMITA ALTERAÇÕES LOCALMENTE
+  # git push                                 		  : EFETIVA ALTERAÇÕES PARA O SERVIDOR
+  # git push --set-upstream origin <minha-branch> : AO ENVIAR O SEU CÓDIGO PARA UMA BRANCH REMOTA QUE AINDA NÃO EXISTE, BASTA EXECUTAR O PUSH COM A OPÇÃO -U JUNTO COM O NOME DO REPOSITÓRIO REMOTO E O NOME DA NOVA BRANCH
+  # git fetch																			: SINCRONICA BRANCHS QUE ESTÃO NO SERVIDOR PARA TRAZER LOCALMENTE MAS SEM ALTERAR NADA DA BRANCH CORRENTE. DEVE SER USADO ANTES DO PULL
+  # git pull                                 		  : ATUALIZA LOCALMENTE O QUE EXISTIR DE NOVO NO SERVIDOR
+  # git checkout -b <NOME>	             					: CRIAR BRANCH
+  # git stach                                		  : COLOCA NA FILA PARA SER INSERIDO EM OUTRA BRANCH, PARA ENTENDER MAIS https://git-scm.com/book/pt-br/v1/Ferramentas-do-Git-Fazendo-Stash
+  # git pull origin "develop"                		  : TRAZER A DEVELOP PARA A BRANCH QUE ESTOU PARA PODER RESOLVER OS CONFLITOS
+  # git merge "nome_branch_quer_subir"       		  : TRAZ OS CONFLITOS COM A BRANCH ATUAL
+  # git config --list															: LISTA CONFIGURAÇÕES
+  # git config gui.encoding utf-8   							: SETA O ENCODING NO REPOSITÓRIO. SE USAR --global SERÁ PARA TODOS REPOSITÓRIOS
+  # git config user.email "email@email.com.br"		: SETA EMAIL USER NO REPOSITÓRIO. SE USAR --global SERÁ PARA TODOS REPOSITÓRIOS
+  # git config user.name "Usuario"								: SETA USER NAME NO REPOSITÓRIO.  SE USAR --global SERÁ PARA TODOS REPOSITÓRIOS
+  # git subtree add -P                            : JUNTAR REPOSITÓRIOS

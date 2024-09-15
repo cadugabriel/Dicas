@@ -1,0 +1,5 @@
+Comandos:
+    # hdfs dfs -ls "caminho"            : Lista arquivo
+    # hdfs dfs -rm -skipTrash "caminho" : Remover arquivo
+    # hdfs dfs -get ORIGEM DESTINO      : Download de arquivos
+    # hdfs dfs -put ORIGEM DESTINO      : Upload de arquivos

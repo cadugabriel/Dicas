@@ -1,0 +1,13 @@
+Atalhos:
+    Ctrl+G	: Abre Ajuda / Help
+    Ctrl+X	: Sair da edição do arquivo
+    Ctrl+O	: Salva o arquivo
+    Ctrl+J	: Justifica o texto da linha atual
+    Ctrl+R	: Ler arquivo para inserção
+    Ctrl+W	: Localizar texto
+    Ctrl+Y	: Posiciona na página anterior
+    Ctrl+V	: Posiciona na página posterior
+    Ctrl+K	: Recorta Texto
+    Ctrl+U	: Cola Texto
+    Ctrl+C	: Mostra a posição atual (linha/coluna)
+    Ctrl+T	: Checagem ortográfica (se tiver plugins instalados)

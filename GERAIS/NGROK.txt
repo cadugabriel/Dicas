@@ -1,0 +1,8 @@
+Passo a passo:
+1. Baixar do site: https://dashboard.ngrok.com/get-started/setup/windows
+
+2. Rodar o arquivo ngrok.exe (será aberto um terminal do programa)
+
+3. Rodar: ngrok config add-authtoken <meu token>
+
+4. Associar APP ao ngrok: ngrok http http://<IP>:<PORTA>
