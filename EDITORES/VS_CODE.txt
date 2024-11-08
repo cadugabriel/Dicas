@@ -1,2 +1,3 @@
 Dicas:
+   Ctrl + Alt          : Seleciona multiplas linhas
    Shift + Alt + Enter : Formata JSON
