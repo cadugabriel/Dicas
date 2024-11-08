@@ -1,8 +1,9 @@
 Comandos:
-    # scp								: Copia arquivos de um servidor Linux para outro
-    # sudo lsof -i -P -n | grep LISTEN	: Lista processos em execução	
+    # scp					: Copia arquivos de um servidor Linux para outro
+    # sudo lsof -i -P -n | grep LISTEN		: Lista processos em execução	
     # sudo fuser -k <porta>/tcp			: Mata processo TCP
-
+    # sudo apt list				: Lista pacotes disponíveis para o Linux
+    # sudo apt list --installed			: Lista pacotes instalados
 
 Alterar senha do root do WSL:
  * Abrir PowerShell como Administrador

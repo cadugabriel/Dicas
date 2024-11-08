@@ -6,5 +6,15 @@ Comandos:
     # source nome_da_virtualenv/bin/activate        : ATIVAR AMBIENTE VIRTUAL PELO LINUX
     # .\nome_da_virtualenv\Scripts\deactivate.bat   : DESATIVAR AMBIENTE VIRTUAL PELO WINDOWS
     # deactivate                                    : DESATIVAR AMBIENTE VIRTUAL PELO LINUX
-    # python3 -m pip freeze	                        : GERAR LISTA DE PACOTES (BIBLIOTECAS) SENDO UTILIZADAS NO MOMENTO
-    # sudo apt remove python3-<package>             : FORÇAR REMOVER PACOTES
+    # python3 -m pip freeze	                    : GERAR LISTA DE PACOTES (BIBLIOTECAS) SENDO UTILIZADAS NO MOMENTO
+   
+
+Formas de remover:
+  # sudo apt autoremove				    			: Pelo próprio Linux
+  # sudo apt remove python3-<package>               			: FORÇAR REMOVER PACOTES
+  # pip uninstall <package>		    				: REMOVE PACOTES
+  # pip freeze > dump.txt && cat dump.txt | xargs sudo pip uninstall -y	: LISTA PACOTES E REMOVE
+  # pip uninstall -r requirements.txt					: REMOVER REQUIREMENTS
+
+sudo apt remove python3-attrs
+sudo pip uninstall aiohttp

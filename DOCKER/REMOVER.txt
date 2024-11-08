@@ -1,0 +1,7 @@
+1. Listar serviços
+# dpkg -l | grep -i Docker
+
+2. Apagar o que foi listado acima referente a Docker. Exemplo:
+# sudo apt-get purge -y docker-engine docker docker.io docker-ce docker-ce-cli docker-compose-plugin
+
+#sudo apt-get autoremove -y --purge docker-engine docker docker.io docker-ce docker-compose-plugin

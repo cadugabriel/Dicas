@@ -1,0 +1,2 @@
+Dicas:
+   Shift + Alt + Enter : Formata JSON

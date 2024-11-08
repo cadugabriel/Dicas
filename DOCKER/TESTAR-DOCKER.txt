@@ -1,0 +1,4 @@
+Depois de ter instalado o Docker, é possível testar utilizando a imagem padrão:
+
+1. Execute o comando:
+# sudo docker run hello-world
