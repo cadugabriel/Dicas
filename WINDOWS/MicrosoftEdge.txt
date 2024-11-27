@@ -1,0 +1,20 @@
+É possível desinstalar o Microsoft Edge, porem, ele continuara a ser listados na lista de aplicativos, mas utilizando apenas 46KB de espaço.
+
+Para remover:
+1. Windows + X > Windows Power Shell ( Admin )
+2. Digite
+
+winget uninstall Microsoft.Edge
+
+3. Aguarde o processo terminar
+
+
+Se futuramente desejar utilizar o navegador:
+
+Para instalar:
+1. Windows + X > Windows Power Shell ( Admin )
+2. Digite
+
+winget install Microsoft.Edge
+
+3. Aguarde o processo terminar
